@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing en <GifGrid /> Correcto despliege de <GifGrid /> 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__bounceInLeft"
+  >
+    Test-Categoria
+  </h3>
+  <p
+    className="loading animate__animated animate__flash"
+  >
+    <i
+      className="fas fa-cloud-download-alt"
+    />
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Testing en <GifGrid /> Mostrar items cuando se cargan gifs del hook "useFetchGifs" 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__bounceInLeft"
+  >
+    Test-Categoria
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id={12345}
+      key="12345"
+      title="Cualquier title"
+      url="https://localhost/anywhere/ramdom-gif.gif"
+    />
+    <GifGridItem
+      id={54321}
+      key="54321"
+      title="Cualquier title"
+      url="https://localhost/anywhere/ramdom-gif.gif"
+    />
+  </div>
+</Fragment>
+`;

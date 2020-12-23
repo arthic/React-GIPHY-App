@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AddCategory /> Despliege correcto de <AddCategory /> 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="search-contend"
+  >
+    <i
+      className="fas fa-search"
+    />
+    <input
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+</form>
+`;

@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing de <GifExpertApp /> Debe mostrar la lista de categorias 1`] = `
+<Fragment>
+  <section
+    id="search"
+  >
+    <h2
+      className="animate__animated animate__bounceInDown"
+    >
+      GIPHY App
+    </h2>
+    <div
+      className="powered"
+    >
+      <p>
+        Powered by
+      </p>
+      <a
+        href="https://giphy.com/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="giphy"
+          src="./assets/giphy.png"
+        />
+      </a>
+    </div>
+    <AddCategory
+      setCategories={[Function]}
+    />
+  </section>
+  <div
+    className="border-gradient"
+  />
+  <ol>
+    <GifGrid
+      category="Test-01"
+      className="animate__animated animate__bounceInLeft"
+      key="Test-01"
+    />
+    <GifGrid
+      category="Test-02"
+      className="animate__animated animate__bounceInLeft"
+      key="Test-02"
+    />
+  </ol>
+</Fragment>
+`;
+
+exports[`Testing de <GifExpertApp /> Despliegue correcto de <GifExpertApp /> 1`] = `
+<Fragment>
+  <section
+    id="search"
+  >
+    <h2
+      className="animate__animated animate__bounceInDown"
+    >
+      GIPHY App
+    </h2>
+    <div
+      className="powered"
+    >
+      <p>
+        Powered by
+      </p>
+      <a
+        href="https://giphy.com/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="giphy"
+          src="./assets/giphy.png"
+        />
+      </a>
+    </div>
+    <AddCategory
+      setCategories={[Function]}
+    />
+  </section>
+  <div
+    className="border-gradient"
+  />
+  <ol>
+    <GifGrid
+      category="xbox series x"
+      className="animate__animated animate__bounceInLeft"
+      key="xbox series x"
+    />
+  </ol>
+</Fragment>
+`;
